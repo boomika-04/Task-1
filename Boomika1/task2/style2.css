@@ -1,0 +1,78 @@
+body{
+  background-image: url('https://png.pngtree.com/background/20250104/original/pngtree-task-management-business-planning-app-illustration-vector-picture-image_15392537.jpg');
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  margin: 0px;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+
+#todo-app{
+  background-color:fuchsia;
+  padding: 20px;
+  width:650px;
+  height: 300px;
+  border: 5px solid black;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  margin-top: 150px; 
+  margin-right: 900px;
+  
+}
+#todo-app h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 70px;
+}
+input[type="text"] {
+  width: 250px;
+  height: 20px;
+  padding: 8px;
+  margin-top: 10px;
+}
+#remaining-count{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+#add-btn{
+  height: 35px;
+  width: 50px;
+  cursor: pointer;
+}
+.filters {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.filters button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100px;
+}
+
+.filters button:hover {
+  background: #555;
+  transform:scale(1.10);
+}
+
+
+li {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px;
+      border-bottom: 1px solid #ddd;
+}
+li.completed span {
+      text-decoration: line-through;
+      color: gray;
+}
